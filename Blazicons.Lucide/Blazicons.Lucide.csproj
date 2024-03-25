@@ -31,9 +31,6 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Generated\" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -67,12 +64,15 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Blazicons.Lucide.Generating\Blazicons.Lucide.Generating.csproj" />
+    <ProjectReference Include="..\Blazicons.Lucide.Generating\Blazicons.Lucide.Generating.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
   <ItemGroup>
     <None Update="blazicons-md-128.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generated\" />
   </ItemGroup>
 </Project>
