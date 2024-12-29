@@ -5044,7 +5044,7 @@ public static SvgIcon Snail => SvgIcon.FromContent("<path d='M2 13a6 6 0 1 0 12 
 /// <summary>
 /// Gets the Snowflake SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Snowflake => SvgIcon.FromContent("<line x1='2' x2='22' y1='12' y2='12'></line>  <line x1='12' x2='12' y1='2' y2='22'></line>  <path d='m20 16-4-4 4-4'></path>  <path d='m4 8 4 4-4 4'></path>  <path d='m16 4-4 4-4-4'></path>  <path d='m8 20 4-4 4 4'></path>", attributeSet0);
+public static SvgIcon Snowflake => SvgIcon.FromContent("<path d='m10 20-1.25-2.5L6 18'></path>  <path d='M10 4 8.75 6.5 6 6'></path>  <path d='m14 20 1.25-2.5L18 18'></path>  <path d='m14 4 1.25 2.5L18 6'></path>  <path d='m17 21-3-6h-4'></path>  <path d='m17 3-3 6 1.5 3'></path>  <path d='M2 12h6.5L10 9'></path>  <path d='m20 10-1.5 2 1.5 2'></path>  <path d='M22 12h-6.5L14 15'></path>  <path d='m4 10 1.5 2L4 14'></path>  <path d='m7 21 3-6-1.5-3'></path>  <path d='m7 3 3 6h4'></path>", attributeSet0);
 /// <summary>
 /// Gets the Sofa SvgIcon from the Lucide library.
 /// </summary>
@@ -5420,7 +5420,7 @@ public static SvgIcon SunMoon => SvgIcon.FromContent("<path d='M12 8a2.83 2.83 0
 /// <summary>
 /// Gets the SunSnow SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon SunSnow => SvgIcon.FromContent("<path d='M10 9a3 3 0 1 0 0 6'></path>  <path d='M2 12h1'></path>  <path d='M14 21V3'></path>  <path d='M10 4V3'></path>  <path d='M10 21v-1'></path>  <path d='m3.64 18.36.7-.7'></path>  <path d='m4.34 6.34-.7-.7'></path>  <path d='M14 12h8'></path>  <path d='m17 4-3 3'></path>  <path d='m14 17 3 3'></path>  <path d='m21 15-3-3 3-3'></path>", attributeSet0);
+public static SvgIcon SunSnow => SvgIcon.FromContent("<path d='M10 21v-1'></path>  <path d='M10 4V3'></path>  <path d='M10 9a3 3 0 0 0 0 6'></path>  <path d='m14 20 1.25-2.5L18 18'></path>  <path d='m14 4 1.25 2.5L18 6'></path>  <path d='m17 21-3-6 1.5-3H22'></path>  <path d='m17 3-3 6 1.5 3'></path>  <path d='M2 12h1'></path>  <path d='m20 10-1.5 2 1.5 2'></path>  <path d='m3.64 18.36.7-.7'></path>  <path d='m4.34 6.34-.7-.7'></path>", attributeSet0);
 /// <summary>
 /// Gets the Sun SvgIcon from the Lucide library.
 /// </summary>
@@ -5600,7 +5600,7 @@ public static SvgIcon Theater => SvgIcon.FromContent("<path d='M2 10s3-3 3-8'></
 /// <summary>
 /// Gets the ThermometerSnowflake SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon ThermometerSnowflake => SvgIcon.FromContent("<path d='M2 12h10'></path>  <path d='M9 4v16'></path>  <path d='m3 9 3 3-3 3'></path>  <path d='M12 6 9 9 6 6'></path>  <path d='m6 18 3-3 1.5 1.5'></path>  <path d='M20 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z'></path>", attributeSet0);
+public static SvgIcon ThermometerSnowflake => SvgIcon.FromContent("<path d='m10 20-1.25-2.5L6 18'></path>  <path d='M10 4 8.75 6.5 6 6'></path>  <path d='M10.585 15H10'></path>  <path d='M2 12h6.5L10 9'></path>  <path d='M20 14.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z'></path>  <path d='m4 10 1.5 2L4 14'></path>  <path d='m7 21 3-6-1.5-3'></path>  <path d='m7 3 3 6h2'></path>", attributeSet0);
 /// <summary>
 /// Gets the ThermometerSun SvgIcon from the Lucide library.
 /// </summary>
