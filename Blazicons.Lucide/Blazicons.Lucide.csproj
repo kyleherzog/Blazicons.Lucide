@@ -5,9 +5,9 @@
     <LangVersion>13.0</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationVersion>1.4</ApplicationVersion>
+    <ApplicationVersion>1.5</ApplicationVersion>
     <ApplicationRevision>0</ApplicationRevision>
-    <Version>1.4</Version>
+    <Version>1.5</Version>
     <IsTrimmable>true</IsTrimmable>
     <Authors>Kyle Herzog</Authors>
     <PackageTags>Blazor Lucide Icons SVG</PackageTags>
