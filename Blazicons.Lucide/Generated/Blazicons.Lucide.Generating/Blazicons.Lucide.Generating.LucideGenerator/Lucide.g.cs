@@ -32,7 +32,7 @@ public static SvgIcon Activity => SvgIcon.FromContent("<path d='M22 12h-2.48a2 2
 /// <summary>
 /// Gets the AirVent SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon AirVent => SvgIcon.FromContent("<path d='M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2'></path>  <path d='M6 8h12'></path>  <path d='M18.3 17.7a2.5 2.5 0 0 1-3.16 3.83 2.53 2.53 0 0 1-1.14-2V12'></path>  <path d='M6.6 15.6A2 2 0 1 0 10 17v-5'></path>", attributeSet0);
+public static SvgIcon AirVent => SvgIcon.FromContent("<path d='M18 17.5a2.5 2.5 0 1 1-4 2.03V12'></path>  <path d='M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2'></path>  <path d='M6 8h12'></path>  <path d='M6.6 15.572A2 2 0 1 0 10 17v-5'></path>", attributeSet0);
 /// <summary>
 /// Gets the Airplay SvgIcon from the Lucide library.
 /// </summary>
@@ -436,11 +436,11 @@ public static SvgIcon Award => SvgIcon.FromContent("<path d='m15.477 12.89 1.515
 /// <summary>
 /// Gets the Axe SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Axe => SvgIcon.FromContent("<path d='m14 12-8.5 8.5a2.12 2.12 0 1 1-3-3L11 9'></path>  <path d='M15 13 9 7l4-4 6 6h3a8 8 0 0 1-7 7z'></path>", attributeSet0);
+public static SvgIcon Axe => SvgIcon.FromContent("<path d='m14 12-8.381 8.38a1 1 0 0 1-3.001-3L11 9'></path>  <path d='M15 15.5a.5.5 0 0 0 .5.5A6.5 6.5 0 0 0 22 9.5a.5.5 0 0 0-.5-.5h-1.672a2 2 0 0 1-1.414-.586l-5.062-5.062a1.205 1.205 0 0 0-1.704 0L9.352 5.648a1.205 1.205 0 0 0 0 1.704l5.062 5.062A2 2 0 0 1 15 13.828z'></path>", attributeSet0);
 /// <summary>
 /// Gets the Axis3d SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Axis3d => SvgIcon.FromContent("<path d='M4 4v16h16'></path>  <path d='m4 20 7-7'></path>", attributeSet0);
+public static SvgIcon Axis3d => SvgIcon.FromContent("<path d='M13.5 10.5 15 9'></path>  <path d='M4 4v15a1 1 0 0 0 1 1h15'></path>  <path d='M4.293 19.707 6 18'></path>  <path d='m9 15 1.5-1.5'></path>", attributeSet0);
 /// <summary>
 /// Gets the Baby SvgIcon from the Lucide library.
 /// </summary>
@@ -564,31 +564,31 @@ public static SvgIcon Bath => SvgIcon.FromContent("<path d='M10 4 8 6'></path>  
 /// <summary>
 /// Gets the BatteryCharging SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon BatteryCharging => SvgIcon.FromContent("<path d='M15 7h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2'></path>  <path d='M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1'></path>  <path d='m11 7-3 5h4l-3 5'></path>  <line x1='22' x2='22' y1='11' y2='13'></line>", attributeSet0);
+public static SvgIcon BatteryCharging => SvgIcon.FromContent("<path d='m11 7-3 5h4l-3 5'></path>  <path d='M14.856 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.935'></path>  <path d='M22 14v-4'></path>  <path d='M5.14 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2.936'></path>", attributeSet0);
 /// <summary>
 /// Gets the BatteryFull SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon BatteryFull => SvgIcon.FromContent("<rect width='16' height='10' x='2' y='7' rx='2' ry='2'></rect>  <line x1='22' x2='22' y1='11' y2='13'></line>  <line x1='6' x2='6' y1='11' y2='13'></line>  <line x1='10' x2='10' y1='11' y2='13'></line>  <line x1='14' x2='14' y1='11' y2='13'></line>", attributeSet0);
+public static SvgIcon BatteryFull => SvgIcon.FromContent("<path d='M10 10v4'></path>  <path d='M14 10v4'></path>  <path d='M22 14v-4'></path>  <path d='M6 10v4'></path>  <rect x='2' y='6' width='16' height='12' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the BatteryLow SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon BatteryLow => SvgIcon.FromContent("<rect width='16' height='10' x='2' y='7' rx='2' ry='2'></rect>  <line x1='22' x2='22' y1='11' y2='13'></line>  <line x1='6' x2='6' y1='11' y2='13'></line>", attributeSet0);
+public static SvgIcon BatteryLow => SvgIcon.FromContent("<path d='M22 14v-4'></path>  <path d='M6 14v-4'></path>  <rect x='2' y='6' width='16' height='12' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the BatteryMedium SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon BatteryMedium => SvgIcon.FromContent("<rect width='16' height='10' x='2' y='7' rx='2' ry='2'></rect>  <line x1='22' x2='22' y1='11' y2='13'></line>  <line x1='6' x2='6' y1='11' y2='13'></line>  <line x1='10' x2='10' y1='11' y2='13'></line>", attributeSet0);
+public static SvgIcon BatteryMedium => SvgIcon.FromContent("<path d='M10 14v-4'></path>  <path d='M22 14v-4'></path>  <path d='M6 14v-4'></path>  <rect x='2' y='6' width='16' height='12' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the BatteryPlus SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon BatteryPlus => SvgIcon.FromContent("<path d='M10 9v6'></path>  <path d='M13.5 7H16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2.5'></path>  <path d='M22 11v2'></path>  <path d='M6.5 17H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2.5'></path>  <path d='M7 12h6'></path>", attributeSet0);
+public static SvgIcon BatteryPlus => SvgIcon.FromContent("<path d='M10 9v6'></path>  <path d='M12.543 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.605'></path>  <path d='M22 14v-4'></path>  <path d='M7 12h6'></path>  <path d='M7.606 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.606'></path>", attributeSet0);
 /// <summary>
 /// Gets the BatteryWarning SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon BatteryWarning => SvgIcon.FromContent("<path d='M10 17h.01'></path>  <path d='M10 7v6'></path>  <path d='M14 7h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2'></path>  <path d='M22 11v2'></path>  <path d='M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2'></path>", attributeSet0);
+public static SvgIcon BatteryWarning => SvgIcon.FromContent("<path d='M10 17h.01'></path>  <path d='M10 7v6'></path>  <path d='M14 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2'></path>  <path d='M22 14v-4'></path>  <path d='M6 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2'></path>", attributeSet0);
 /// <summary>
 /// Gets the Battery SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Battery => SvgIcon.FromContent("<rect width='16' height='10' x='2' y='7' rx='2' ry='2'></rect>  <line x1='22' x2='22' y1='11' y2='13'></line>", attributeSet0);
+public static SvgIcon Battery => SvgIcon.FromContent("<path d='M 22 14 L 22 10'></path>  <rect x='2' y='6' width='16' height='12' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the Beaker SvgIcon from the Lucide library.
 /// </summary>
@@ -632,7 +632,7 @@ public static SvgIcon BellDot => SvgIcon.FromContent("<path d='M10.268 21a2 2 0 
 /// <summary>
 /// Gets the BellElectric SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon BellElectric => SvgIcon.FromContent("<path d='M18.8 4A6.3 8.7 0 0 1 20 9'></path>  <path d='M9 9h.01'></path>  <circle cx='9' cy='9' r='7'></circle>  <rect width='10' height='6' x='4' y='16' rx='2'></rect>  <path d='M14 19c3 0 4.6-1.6 4.6-1.6'></path>  <circle cx='20' cy='16' r='2'></circle>", attributeSet0);
+public static SvgIcon BellElectric => SvgIcon.FromContent("<path d='M18.518 17.347A7 7 0 0 1 14 19'></path>  <path d='M18.8 4A11 11 0 0 1 20 9'></path>  <path d='M9 9h.01'></path>  <circle cx='20' cy='16' r='2'></circle>  <circle cx='9' cy='9' r='7'></circle>  <rect x='4' y='16' width='10' height='6' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the BellMinus SvgIcon from the Lucide library.
 /// </summary>
@@ -892,7 +892,7 @@ public static SvgIcon Braces => SvgIcon.FromContent("<path d='M8 3H7a2 2 0 0 0-2
 /// <summary>
 /// Gets the Brackets SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Brackets => SvgIcon.FromContent("<path d='M16 3h2a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-2'></path>  <path d='M8 21H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2'></path>", attributeSet0);
+public static SvgIcon Brackets => SvgIcon.FromContent("<path d='M16 3h3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-3'></path>  <path d='M8 21H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h3'></path>", attributeSet0);
 /// <summary>
 /// Gets the BrainCircuit SvgIcon from the Lucide library.
 /// </summary>
@@ -933,6 +933,10 @@ public static SvgIcon Briefcase => SvgIcon.FromContent("<path d='M16 20V4a2 2 0 
 /// Gets the BringToFront SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon BringToFront => SvgIcon.FromContent("<rect x='8' y='8' width='8' height='8' rx='2'></rect>  <path d='M4 10a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2'></path>  <path d='M14 20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2'></path>", attributeSet0);
+/// <summary>
+/// Gets the BrushCleaning SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon BrushCleaning => SvgIcon.FromContent("<path d='m16 22-1-4'></path>  <path d='M19 13.99a1 1 0 0 0 1-1V12a2 2 0 0 0-2-2h-3a1 1 0 0 1-1-1V4a2 2 0 0 0-4 0v5a1 1 0 0 1-1 1H6a2 2 0 0 0-2 2v.99a1 1 0 0 0 1 1'></path>  <path d='M5 14h14l1.973 6.767A1 1 0 0 1 20 22H4a1 1 0 0 1-.973-1.233z'></path>  <path d='m8 22 1-4'></path>", attributeSet0);
 /// <summary>
 /// Gets the Brush SvgIcon from the Lucide library.
 /// </summary>
@@ -1254,6 +1258,10 @@ public static SvgIcon ChartSpline => SvgIcon.FromContent("<path d='M3 3v16a2 2 0
 /// </summary>
 public static SvgIcon CheckCheck => SvgIcon.FromContent("<path d='M18 6 7 17l-5-5'></path>  <path d='m22 10-7.5 7.5L13 16'></path>", attributeSet0);
 /// <summary>
+/// Gets the CheckLine SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon CheckLine => SvgIcon.FromContent("<path d='M20 4L9 15'></path>  <path d='M21 19L3 19'></path>  <path d='M9 15L4 10'></path>", attributeSet0);
+/// <summary>
 /// Gets the Check SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon Check => SvgIcon.FromContent("<path d='M20 6 9 17l-5-5'></path>", attributeSet0);
@@ -1300,7 +1308,7 @@ public static SvgIcon ChevronsDown => SvgIcon.FromContent("<path d='m7 6 5 5 5-5
 /// <summary>
 /// Gets the ChevronsLeftRightEllipsis SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon ChevronsLeftRightEllipsis => SvgIcon.FromContent("<path d='m18 8 4 4-4 4'></path>  <path d='m6 8-4 4 4 4'></path>  <path d='M8 12h.01'></path>  <path d='M12 12h.01'></path>  <path d='M16 12h.01'></path>", attributeSet0);
+public static SvgIcon ChevronsLeftRightEllipsis => SvgIcon.FromContent("<path d='M12 12h.01'></path>  <path d='M16 12h.01'></path>  <path d='m17 7 5 5-5 5'></path>  <path d='m7 7-5 5 5 5'></path>  <path d='M8 12h.01'></path>", attributeSet0);
 /// <summary>
 /// Gets the ChevronsLeftRight SvgIcon from the Lucide library.
 /// </summary>
@@ -1478,6 +1486,10 @@ public static SvgIcon CirclePlay => SvgIcon.FromContent("<circle cx='12' cy='12'
 /// </summary>
 public static SvgIcon CirclePlus => SvgIcon.FromContent("<circle cx='12' cy='12' r='10'></circle>  <path d='M8 12h8'></path>  <path d='M12 8v8'></path>", attributeSet0);
 /// <summary>
+/// Gets the CirclePoundSterling SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon CirclePoundSterling => SvgIcon.FromContent("<path d='M10 16V9.5a1 1 0 0 1 5 0'></path>  <path d='M8 12h4'></path>  <path d='M8 16h7'></path>  <circle cx='12' cy='12' r='10'></circle>", attributeSet0);
+/// <summary>
 /// Gets the CirclePower SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon CirclePower => SvgIcon.FromContent("<path d='M12 7v4'></path>  <path d='M7.998 9.003a5 5 0 1 0 8-.005'></path>  <circle cx='12' cy='12' r='10'></circle>", attributeSet0);
@@ -1604,7 +1616,7 @@ public static SvgIcon Clock5 => SvgIcon.FromContent("<circle cx='12' cy='12' r='
 /// <summary>
 /// Gets the Clock6 SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Clock6 => SvgIcon.FromContent("<circle cx='12' cy='12' r='10'></circle>  <polyline points='12 6 12 12 12 16.5'></polyline>", attributeSet0);
+public static SvgIcon Clock6 => SvgIcon.FromContent("<path d='M12 16.5V6'></path>  <circle cx='12' cy='12' r='10'></circle>", attributeSet0);
 /// <summary>
 /// Gets the Clock7 SvgIcon from the Lucide library.
 /// </summary>
@@ -1634,6 +1646,10 @@ public static SvgIcon ClockArrowUp => SvgIcon.FromContent("<path d='M13.228 21.9
 /// </summary>
 public static SvgIcon ClockFading => SvgIcon.FromContent("<path d='M12 2a10 10 0 0 1 7.38 16.75'></path>  <path d='M12 6v6l4 2'></path>  <path d='M2.5 8.875a10 10 0 0 0-.5 3'></path>  <path d='M2.83 16a10 10 0 0 0 2.43 3.4'></path>  <path d='M4.636 5.235a10 10 0 0 1 .891-.857'></path>  <path d='M8.644 21.42a10 10 0 0 0 7.631-.38'></path>", attributeSet0);
 /// <summary>
+/// Gets the ClockPlus SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon ClockPlus => SvgIcon.FromContent("<path d='M12 6v6l3.644 1.822'></path>  <path d='M16 19h6'></path>  <path d='M19 16v6'></path>  <path d='M21.92 13.267a10 10 0 1 0-8.653 8.653'></path>", attributeSet0);
+/// <summary>
 /// Gets the Clock SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon Clock => SvgIcon.FromContent("<circle cx='12' cy='12' r='10'></circle>  <polyline points='12 6 12 12 16 14'></polyline>", attributeSet0);
@@ -1641,6 +1657,10 @@ public static SvgIcon Clock => SvgIcon.FromContent("<circle cx='12' cy='12' r='1
 /// Gets the CloudAlert SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon CloudAlert => SvgIcon.FromContent("<path d='M12 12v4'></path>  <path d='M12 20h.01'></path>  <path d='M17 18h.5a1 1 0 0 0 0-9h-1.79A7 7 0 1 0 7 17.708'></path>", attributeSet0);
+/// <summary>
+/// Gets the CloudCheck SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon CloudCheck => SvgIcon.FromContent("<path d='m17 15-5.5 5.5L9 18'></path>  <path d='M5 17.743A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.742'></path>", attributeSet0);
 /// <summary>
 /// Gets the CloudCog SvgIcon from the Lucide library.
 /// </summary>
@@ -1724,7 +1744,7 @@ public static SvgIcon CodeXml => SvgIcon.FromContent("<path d='m18 16 4-4-4-4'><
 /// <summary>
 /// Gets the Code SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Code => SvgIcon.FromContent("<polyline points='16 18 22 12 16 6'></polyline>  <polyline points='8 6 2 12 8 18'></polyline>", attributeSet0);
+public static SvgIcon Code => SvgIcon.FromContent("<path d='m16 18 6-6-6-6'></path>  <path d='m8 6-6 6 6 6'></path>", attributeSet0);
 /// <summary>
 /// Gets the Codepen SvgIcon from the Lucide library.
 /// </summary>
@@ -1852,35 +1872,35 @@ public static SvgIcon Copyright => SvgIcon.FromContent("<circle cx='12' cy='12' 
 /// <summary>
 /// Gets the CornerDownLeft SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerDownLeft => SvgIcon.FromContent("<polyline points='9 10 4 15 9 20'></polyline>  <path d='M20 4v7a4 4 0 0 1-4 4H4'></path>", attributeSet0);
+public static SvgIcon CornerDownLeft => SvgIcon.FromContent("<path d='M20 4v7a4 4 0 0 1-4 4H4'></path>  <path d='m9 10-5 5 5 5'></path>", attributeSet0);
 /// <summary>
 /// Gets the CornerDownRight SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerDownRight => SvgIcon.FromContent("<polyline points='15 10 20 15 15 20'></polyline>  <path d='M4 4v7a4 4 0 0 0 4 4h12'></path>", attributeSet0);
+public static SvgIcon CornerDownRight => SvgIcon.FromContent("<path d='m15 10 5 5-5 5'></path>  <path d='M4 4v7a4 4 0 0 0 4 4h12'></path>", attributeSet0);
 /// <summary>
 /// Gets the CornerLeftDown SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerLeftDown => SvgIcon.FromContent("<polyline points='14 15 9 20 4 15'></polyline>  <path d='M20 4h-7a4 4 0 0 0-4 4v12'></path>", attributeSet0);
+public static SvgIcon CornerLeftDown => SvgIcon.FromContent("<path d='m14 15-5 5-5-5'></path>  <path d='M20 4h-7a4 4 0 0 0-4 4v12'></path>", attributeSet0);
 /// <summary>
 /// Gets the CornerLeftUp SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerLeftUp => SvgIcon.FromContent("<polyline points='14 9 9 4 4 9'></polyline>  <path d='M20 20h-7a4 4 0 0 1-4-4V4'></path>", attributeSet0);
+public static SvgIcon CornerLeftUp => SvgIcon.FromContent("<path d='M14 9 9 4 4 9'></path>  <path d='M20 20h-7a4 4 0 0 1-4-4V4'></path>", attributeSet0);
 /// <summary>
 /// Gets the CornerRightDown SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerRightDown => SvgIcon.FromContent("<polyline points='10 15 15 20 20 15'></polyline>  <path d='M4 4h7a4 4 0 0 1 4 4v12'></path>", attributeSet0);
+public static SvgIcon CornerRightDown => SvgIcon.FromContent("<path d='m10 15 5 5 5-5'></path>  <path d='M4 4h7a4 4 0 0 1 4 4v12'></path>", attributeSet0);
 /// <summary>
 /// Gets the CornerRightUp SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerRightUp => SvgIcon.FromContent("<polyline points='10 9 15 4 20 9'></polyline>  <path d='M4 20h7a4 4 0 0 0 4-4V4'></path>", attributeSet0);
+public static SvgIcon CornerRightUp => SvgIcon.FromContent("<path d='m10 9 5-5 5 5'></path>  <path d='M4 20h7a4 4 0 0 0 4-4V4'></path>", attributeSet0);
 /// <summary>
 /// Gets the CornerUpLeft SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerUpLeft => SvgIcon.FromContent("<polyline points='9 14 4 9 9 4'></polyline>  <path d='M20 20v-7a4 4 0 0 0-4-4H4'></path>", attributeSet0);
+public static SvgIcon CornerUpLeft => SvgIcon.FromContent("<path d='M20 20v-7a4 4 0 0 0-4-4H4'></path>  <path d='M9 14 4 9l5-5'></path>", attributeSet0);
 /// <summary>
 /// Gets the CornerUpRight SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon CornerUpRight => SvgIcon.FromContent("<polyline points='15 14 20 9 15 4'></polyline>  <path d='M4 20v-7a4 4 0 0 1 4-4h12'></path>", attributeSet0);
+public static SvgIcon CornerUpRight => SvgIcon.FromContent("<path d='m15 14 5-5-5-5'></path>  <path d='M4 20v-7a4 4 0 0 1 4-4h12'></path>", attributeSet0);
 /// <summary>
 /// Gets the Cpu SvgIcon from the Lucide library.
 /// </summary>
@@ -2076,7 +2096,7 @@ public static SvgIcon Dot => SvgIcon.FromContent("<circle cx='12.1' cy='12.1' r=
 /// <summary>
 /// Gets the Download SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Download => SvgIcon.FromContent("<path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path>  <polyline points='7 10 12 15 17 10'></polyline>  <line x1='12' x2='12' y1='15' y2='3'></line>", attributeSet0);
+public static SvgIcon Download => SvgIcon.FromContent("<path d='M12 15V3'></path>  <path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path>  <path d='m7 10 5 5 5-5'></path>", attributeSet0);
 /// <summary>
 /// Gets the DraftingCompass SvgIcon from the Lucide library.
 /// </summary>
@@ -2116,7 +2136,7 @@ public static SvgIcon Drumstick => SvgIcon.FromContent("<path d='M15.4 15.63a7.8
 /// <summary>
 /// Gets the Dumbbell SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Dumbbell => SvgIcon.FromContent("<path d='M14.4 14.4 9.6 9.6'></path>  <path d='M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z'></path>  <path d='m21.5 21.5-1.4-1.4'></path>  <path d='M3.9 3.9 2.5 2.5'></path>  <path d='M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z'></path>", attributeSet0);
+public static SvgIcon Dumbbell => SvgIcon.FromContent("<path d='M17.596 12.768a2 2 0 1 0 2.829-2.829l-1.768-1.767a2 2 0 0 0 2.828-2.829l-2.828-2.828a2 2 0 0 0-2.829 2.828l-1.767-1.768a2 2 0 1 0-2.829 2.829z'></path>  <path d='m2.5 21.5 1.4-1.4'></path>  <path d='m20.1 3.9 1.4-1.4'></path>  <path d='M5.343 21.485a2 2 0 1 0 2.829-2.828l1.767 1.768a2 2 0 1 0 2.829-2.829l-6.364-6.364a2 2 0 1 0-2.829 2.829l1.768 1.767a2 2 0 0 0-2.828 2.829z'></path>  <path d='m9.6 14.4 4.8-4.8'></path>", attributeSet0);
 /// <summary>
 /// Gets the EarOff SvgIcon from the Lucide library.
 /// </summary>
@@ -2172,7 +2192,7 @@ public static SvgIcon Equal => SvgIcon.FromContent("<line x1='5' x2='19' y1='9' 
 /// <summary>
 /// Gets the Eraser SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Eraser => SvgIcon.FromContent("<path d='m7 21-4.3-4.3c-1-1-1-2.5 0-3.4l9.6-9.6c1-1 2.5-1 3.4 0l5.6 5.6c1 1 1 2.5 0 3.4L13 21'></path>  <path d='M22 21H7'></path>  <path d='m5 11 9 9'></path>", attributeSet0);
+public static SvgIcon Eraser => SvgIcon.FromContent("<path d='M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21'></path>  <path d='m5.082 11.09 8.828 8.828'></path>", attributeSet0);
 /// <summary>
 /// Gets the EthernetPort SvgIcon from the Lucide library.
 /// </summary>
@@ -2184,7 +2204,7 @@ public static SvgIcon Euro => SvgIcon.FromContent("<path d='M4 10h12'></path>  <
 /// <summary>
 /// Gets the Expand SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Expand => SvgIcon.FromContent("<path d='m15 15 6 6'></path>  <path d='m15 9 6-6'></path>  <path d='M21 16.2V21h-4.8'></path>  <path d='M21 7.8V3h-4.8'></path>  <path d='M3 16.2V21h4.8'></path>  <path d='m3 21 6-6'></path>  <path d='M3 7.8V3h4.8'></path>  <path d='M9 9 3 3'></path>", attributeSet0);
+public static SvgIcon Expand => SvgIcon.FromContent("<path d='m15 15 6 6'></path>  <path d='m15 9 6-6'></path>  <path d='M21 16v5h-5'></path>  <path d='M21 8V3h-5'></path>  <path d='M3 16v5h5'></path>  <path d='m3 21 6-6'></path>  <path d='M3 8V3h5'></path>  <path d='M9 9 3 3'></path>", attributeSet0);
 /// <summary>
 /// Gets the ExternalLink SvgIcon from the Lucide library.
 /// </summary>
@@ -2208,7 +2228,7 @@ public static SvgIcon Facebook => SvgIcon.FromContent("<path d='M18 2h-3a5 5 0 0
 /// <summary>
 /// Gets the Factory SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Factory => SvgIcon.FromContent("<path d='M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z'></path>  <path d='M17 18h1'></path>  <path d='M12 18h1'></path>  <path d='M7 18h1'></path>", attributeSet0);
+public static SvgIcon Factory => SvgIcon.FromContent("<path d='M12 16h.01'></path>  <path d='M16 16h.01'></path>  <path d='M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z'></path>  <path d='M8 16h.01'></path>", attributeSet0);
 /// <summary>
 /// Gets the Fan SvgIcon from the Lucide library.
 /// </summary>
@@ -2712,7 +2732,7 @@ public static SvgIcon Forklift => SvgIcon.FromContent("<path d='M12 12H5a2 2 0 0
 /// <summary>
 /// Gets the Forward SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Forward => SvgIcon.FromContent("<polyline points='15 17 20 12 15 7'></polyline>  <path d='M4 18v-2a4 4 0 0 1 4-4h12'></path>", attributeSet0);
+public static SvgIcon Forward => SvgIcon.FromContent("<path d='m15 17 5-5-5-5'></path>  <path d='M4 18v-2a4 4 0 0 1 4-4h12'></path>", attributeSet0);
 /// <summary>
 /// Gets the Frame SvgIcon from the Lucide library.
 /// </summary>
@@ -2882,6 +2902,10 @@ public static SvgIcon Globe => SvgIcon.FromContent("<circle cx='12' cy='12' r='1
 /// </summary>
 public static SvgIcon Goal => SvgIcon.FromContent("<path d='M12 13V2l8 4-8 4'></path>  <path d='M20.561 10.222a9 9 0 1 1-12.55-5.29'></path>  <path d='M8.002 9.997a5 5 0 1 0 8.9 2.02'></path>", attributeSet0);
 /// <summary>
+/// Gets the Gpu SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon Gpu => SvgIcon.FromContent("<path d='M2 21V3'></path>  <path d='M2 5h18a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2.26'></path>  <path d='M7 17v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3'></path>  <circle cx='16' cy='11' r='2'></circle>  <circle cx='8' cy='11' r='2'></circle>", attributeSet0);
+/// <summary>
 /// Gets the Grab SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon Grab => SvgIcon.FromContent("<path d='M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4'></path>  <path d='M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2'></path>  <path d='M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5'></path>  <path d='M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2'></path>  <path d='M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0'></path>", attributeSet0);
@@ -2932,11 +2956,15 @@ public static SvgIcon Group => SvgIcon.FromContent("<path d='M3 7V5c0-1.1.9-2 2-
 /// <summary>
 /// Gets the Guitar SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Guitar => SvgIcon.FromContent("<path d='m11.9 12.1 4.514-4.514'></path>  <path d='M20.1 2.3a1 1 0 0 0-1.4 0l-1.114 1.114A2 2 0 0 0 17 4.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 17.828 7h1.344a2 2 0 0 0 1.414-.586L21.7 5.3a1 1 0 0 0 0-1.4z'></path>  <path d='m6 16 2 2'></path>  <path d='M8.2 9.9C8.7 8.8 9.8 8 11 8c2.8 0 5 2.2 5 5 0 1.2-.8 2.3-1.9 2.8l-.9.4A2 2 0 0 0 12 18a4 4 0 0 1-4 4c-3.3 0-6-2.7-6-6a4 4 0 0 1 4-4 2 2 0 0 0 1.8-1.2z'></path>  <circle cx='11.5' cy='12.5' r='.5' fill='currentColor'></circle>", attributeSet0);
+public static SvgIcon Guitar => SvgIcon.FromContent("<path d='m11.9 12.1 4.514-4.514'></path>  <path d='M20.1 2.3a1 1 0 0 0-1.4 0l-1.114 1.114A2 2 0 0 0 17 4.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 17.828 7h1.344a2 2 0 0 0 1.414-.586L21.7 5.3a1 1 0 0 0 0-1.4z'></path>  <path d='m6 16 2 2'></path>  <path d='M8.23 9.85A3 3 0 0 1 11 8a5 5 0 0 1 5 5 3 3 0 0 1-1.85 2.77l-.92.38A2 2 0 0 0 12 18a4 4 0 0 1-4 4 6 6 0 0 1-6-6 4 4 0 0 1 4-4 2 2 0 0 0 1.85-1.23z'></path>", attributeSet0);
 /// <summary>
 /// Gets the Ham SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon Ham => SvgIcon.FromContent("<path d='M13.144 21.144A7.274 10.445 45 1 0 2.856 10.856'></path>  <path d='M13.144 21.144A7.274 4.365 45 0 0 2.856 10.856a7.274 4.365 45 0 0 10.288 10.288'></path>  <path d='M16.565 10.435 18.6 8.4a2.501 2.501 0 1 0 1.65-4.65 2.5 2.5 0 1 0-4.66 1.66l-2.024 2.025'></path>  <path d='m8.5 16.5-1-1'></path>", attributeSet0);
+/// <summary>
+/// Gets the Hamburger SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon Hamburger => SvgIcon.FromContent("<path d='M12 16H4a2 2 0 1 1 0-4h16a2 2 0 1 1 0 4h-4.25'></path>  <path d='M5 12a2 2 0 0 1-2-2 9 7 0 0 1 18 0 2 2 0 0 1-2 2'></path>  <path d='M5 16a2 2 0 0 0-2 2 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 2 2 0 0 0-2-2q0 0 0 0'></path>  <path d='m6.67 12 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2'></path>", attributeSet0);
 /// <summary>
 /// Gets the Hammer SvgIcon from the Lucide library.
 /// </summary>
@@ -3126,6 +3154,10 @@ public static SvgIcon IceCreamBowl => SvgIcon.FromContent("<path d='M12 17c5 0 8
 /// </summary>
 public static SvgIcon IceCreamCone => SvgIcon.FromContent("<path d='m7 11 4.08 10.35a1 1 0 0 0 1.84 0L17 11'></path>  <path d='M17 7A5 5 0 0 0 7 7'></path>  <path d='M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4'></path>", attributeSet0);
 /// <summary>
+/// Gets the IdCardLanyard SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon IdCardLanyard => SvgIcon.FromContent("<path d='M13.5 8h-3'></path>  <path d='m15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3'></path>  <path d='M16.899 22A5 5 0 0 0 7.1 22'></path>  <path d='m9 2 3 6'></path>  <circle cx='12' cy='15' r='3'></circle>", attributeSet0);
+/// <summary>
 /// Gets the IdCard SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon IdCard => SvgIcon.FromContent("<path d='M16 10h2'></path>  <path d='M16 14h2'></path>  <path d='M6.17 15a3 3 0 0 1 5.66 0'></path>  <circle cx='9' cy='11' r='2'></circle>  <rect x='2' y='5' width='20' height='14' rx='2'></rect>", attributeSet0);
@@ -3208,11 +3240,11 @@ public static SvgIcon Italic => SvgIcon.FromContent("<line x1='19' x2='10' y1='4
 /// <summary>
 /// Gets the IterationCcw SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon IterationCcw => SvgIcon.FromContent("<path d='M20 10c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8h8'></path>  <polyline points='16 14 20 18 16 22'></polyline>", attributeSet0);
+public static SvgIcon IterationCcw => SvgIcon.FromContent("<path d='m16 14 4 4-4 4'></path>  <path d='M20 10a8 8 0 1 0-8 8h8'></path>", attributeSet0);
 /// <summary>
 /// Gets the IterationCw SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon IterationCw => SvgIcon.FromContent("<path d='M4 10c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8H4'></path>  <polyline points='8 22 4 18 8 14'></polyline>", attributeSet0);
+public static SvgIcon IterationCw => SvgIcon.FromContent("<path d='M4 10a8 8 0 1 1 8 8H4'></path>  <path d='m8 22-4-4 4-4'></path>", attributeSet0);
 /// <summary>
 /// Gets the JapaneseYen SvgIcon from the Lucide library.
 /// </summary>
@@ -3280,7 +3312,7 @@ public static SvgIcon LandPlot => SvgIcon.FromContent("<path d='m12 8 6-3-6-3v10
 /// <summary>
 /// Gets the Landmark SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Landmark => SvgIcon.FromContent("<line x1='3' x2='21' y1='22' y2='22'></line>  <line x1='6' x2='6' y1='18' y2='11'></line>  <line x1='10' x2='10' y1='18' y2='11'></line>  <line x1='14' x2='14' y1='18' y2='11'></line>  <line x1='18' x2='18' y1='18' y2='11'></line>  <polygon points='12 2 20 7 4 7'></polygon>", attributeSet0);
+public static SvgIcon Landmark => SvgIcon.FromContent("<path d='M10 18v-7'></path>  <path d='M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z'></path>  <path d='M14 18v-7'></path>  <path d='M18 18v-7'></path>  <path d='M3 22h18'></path>  <path d='M6 18v-7'></path>", attributeSet0);
 /// <summary>
 /// Gets the Languages SvgIcon from the Lucide library.
 /// </summary>
@@ -3296,7 +3328,7 @@ public static SvgIcon LaptopMinimal => SvgIcon.FromContent("<rect width='18' hei
 /// <summary>
 /// Gets the Laptop SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Laptop => SvgIcon.FromContent("<path d='M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16'></path>", attributeSet0);
+public static SvgIcon Laptop => SvgIcon.FromContent("<path d='M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z'></path>  <path d='M20.054 15.987H3.946'></path>", attributeSet0);
 /// <summary>
 /// Gets the LassoSelect SvgIcon from the Lucide library.
 /// </summary>
@@ -3408,7 +3440,7 @@ public static SvgIcon ListChecks => SvgIcon.FromContent("<path d='m3 17 2 2 4-4'
 /// <summary>
 /// Gets the ListCollapse SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon ListCollapse => SvgIcon.FromContent("<path d='m3 10 2.5-2.5L3 5'></path>  <path d='m3 19 2.5-2.5L3 14'></path>  <path d='M10 6h11'></path>  <path d='M10 12h11'></path>  <path d='M10 18h11'></path>", attributeSet0);
+public static SvgIcon ListCollapse => SvgIcon.FromContent("<path d='M10 12h11'></path>  <path d='M10 18h11'></path>  <path d='M10 6h11'></path>  <path d='m3 10 3-3-3-3'></path>  <path d='m3 20 3-3-3-3'></path>", attributeSet0);
 /// <summary>
 /// Gets the ListEnd SvgIcon from the Lucide library.
 /// </summary>
@@ -3484,7 +3516,7 @@ public static SvgIcon LocateFixed => SvgIcon.FromContent("<line x1='2' x2='5' y1
 /// <summary>
 /// Gets the LocateOff SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon LocateOff => SvgIcon.FromContent("<line x1='2' x2='5' y1='12' y2='12'></line>  <line x1='19' x2='22' y1='12' y2='12'></line>  <line x1='12' x2='12' y1='2' y2='5'></line>  <line x1='12' x2='12' y1='19' y2='22'></line>  <path d='M7.11 7.11C5.83 8.39 5 10.1 5 12c0 3.87 3.13 7 7 7 1.9 0 3.61-.83 4.89-2.11'></path>  <path d='M18.71 13.96c.19-.63.29-1.29.29-1.96 0-3.87-3.13-7-7-7-.67 0-1.33.1-1.96.29'></path>  <line x1='2' x2='22' y1='2' y2='22'></line>", attributeSet0);
+public static SvgIcon LocateOff => SvgIcon.FromContent("<path d='M12 19v3'></path>  <path d='M12 2v3'></path>  <path d='M18.89 13.24a7 7 0 0 0-8.13-8.13'></path>  <path d='M19 12h3'></path>  <path d='M2 12h3'></path>  <path d='m2 2 20 20'></path>  <path d='M7.05 7.05a7 7 0 0 0 9.9 9.9'></path>", attributeSet0);
 /// <summary>
 /// Gets the Locate SvgIcon from the Lucide library.
 /// </summary>
@@ -3512,11 +3544,11 @@ public static SvgIcon Lock => SvgIcon.FromContent("<rect width='18' height='11' 
 /// <summary>
 /// Gets the LogIn SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon LogIn => SvgIcon.FromContent("<path d='M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4'></path>  <polyline points='10 17 15 12 10 7'></polyline>  <line x1='15' x2='3' y1='12' y2='12'></line>", attributeSet0);
+public static SvgIcon LogIn => SvgIcon.FromContent("<path d='m10 17 5-5-5-5'></path>  <path d='M15 12H3'></path>  <path d='M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4'></path>", attributeSet0);
 /// <summary>
 /// Gets the LogOut SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon LogOut => SvgIcon.FromContent("<path d='M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4'></path>  <polyline points='16 17 21 12 16 7'></polyline>  <line x1='21' x2='9' y1='12' y2='12'></line>", attributeSet0);
+public static SvgIcon LogOut => SvgIcon.FromContent("<path d='m16 17 5-5-5-5'></path>  <path d='M21 12H9'></path>  <path d='M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4'></path>", attributeSet0);
 /// <summary>
 /// Gets the Logs SvgIcon from the Lucide library.
 /// </summary>
@@ -3568,7 +3600,7 @@ public static SvgIcon MailX => SvgIcon.FromContent("<path d='M22 13V6a2 2 0 0 0-
 /// <summary>
 /// Gets the Mail SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Mail => SvgIcon.FromContent("<rect width='20' height='16' x='2' y='4' rx='2'></rect>  <path d='m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7'></path>", attributeSet0);
+public static SvgIcon Mail => SvgIcon.FromContent("<path d='m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7'></path>  <rect x='2' y='4' width='20' height='16' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the Mailbox SvgIcon from the Lucide library.
 /// </summary>
@@ -3648,7 +3680,7 @@ public static SvgIcon Martini => SvgIcon.FromContent("<path d='M8 22h8'></path> 
 /// <summary>
 /// Gets the Maximize2 SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Maximize2 => SvgIcon.FromContent("<polyline points='15 3 21 3 21 9'></polyline>  <polyline points='9 21 3 21 3 15'></polyline>  <line x1='21' x2='14' y1='3' y2='10'></line>  <line x1='3' x2='10' y1='21' y2='14'></line>", attributeSet0);
+public static SvgIcon Maximize2 => SvgIcon.FromContent("<path d='M15 3h6v6'></path>  <path d='m21 3-7 7'></path>  <path d='m3 21 7-7'></path>  <path d='M9 21H3v-6'></path>", attributeSet0);
 /// <summary>
 /// Gets the Maximize SvgIcon from the Lucide library.
 /// </summary>
@@ -3676,7 +3708,7 @@ public static SvgIcon MemoryStick => SvgIcon.FromContent("<path d='M6 19v-3'></p
 /// <summary>
 /// Gets the Menu SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Menu => SvgIcon.FromContent("<line x1='4' x2='20' y1='12' y2='12'></line>  <line x1='4' x2='20' y1='6' y2='6'></line>  <line x1='4' x2='20' y1='18' y2='18'></line>", attributeSet0);
+public static SvgIcon Menu => SvgIcon.FromContent("<path d='M4 12h16'></path>  <path d='M4 18h16'></path>  <path d='M4 6h16'></path>", attributeSet0);
 /// <summary>
 /// Gets the Merge SvgIcon from the Lucide library.
 /// </summary>
@@ -3832,7 +3864,7 @@ public static SvgIcon Milk => SvgIcon.FromContent("<path d='M8 2h8'></path>  <pa
 /// <summary>
 /// Gets the Minimize2 SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Minimize2 => SvgIcon.FromContent("<polyline points='4 14 10 14 10 20'></polyline>  <polyline points='20 10 14 10 14 4'></polyline>  <line x1='14' x2='21' y1='10' y2='3'></line>  <line x1='3' x2='10' y1='21' y2='14'></line>", attributeSet0);
+public static SvgIcon Minimize2 => SvgIcon.FromContent("<path d='m14 10 7-7'></path>  <path d='M20 10h-6V4'></path>  <path d='m3 21 7-7'></path>  <path d='M4 14h6v6'></path>", attributeSet0);
 /// <summary>
 /// Gets the Minimize SvgIcon from the Lucide library.
 /// </summary>
@@ -4108,7 +4140,7 @@ public static SvgIcon Origami => SvgIcon.FromContent("<path d='M12 12V4a1 1 0 0 
 /// <summary>
 /// Gets the Package2 SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Package2 => SvgIcon.FromContent("<path d='M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z'></path>  <path d='m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9'></path>  <path d='M12 3v6'></path>", attributeSet0);
+public static SvgIcon Package2 => SvgIcon.FromContent("<path d='M12 3v6'></path>  <path d='M16.76 3a2 2 0 0 1 1.8 1.1l2.23 4.479a2 2 0 0 1 .21.891V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9.472a2 2 0 0 1 .211-.894L5.45 4.1A2 2 0 0 1 7.24 3z'></path>  <path d='M3.054 9.013h17.893'></path>", attributeSet0);
 /// <summary>
 /// Gets the PackageCheck SvgIcon from the Lucide library.
 /// </summary>
@@ -4157,6 +4189,10 @@ public static SvgIcon Paintbrush => SvgIcon.FromContent("<path d='m14.622 17.897
 /// Gets the Palette SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon Palette => SvgIcon.FromContent("<path d='M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z'></path>  <circle cx='13.5' cy='6.5' r='.5' fill='currentColor'></circle>  <circle cx='17.5' cy='10.5' r='.5' fill='currentColor'></circle>  <circle cx='6.5' cy='12.5' r='.5' fill='currentColor'></circle>  <circle cx='8.5' cy='7.5' r='.5' fill='currentColor'></circle>", attributeSet0);
+/// <summary>
+/// Gets the Panda SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon Panda => SvgIcon.FromContent("<path d='M11.25 17.25h1.5L12 18z'></path>  <path d='m15 12 2 2'></path>  <path d='M18 6.5a.5.5 0 0 0-.5-.5'></path>  <path d='M20.69 9.67a4.5 4.5 0 1 0-7.04-5.5 8.35 8.35 0 0 0-3.3 0 4.5 4.5 0 1 0-7.04 5.5C2.49 11.2 2 12.88 2 14.5 2 19.47 6.48 22 12 22s10-2.53 10-7.5c0-1.62-.48-3.3-1.3-4.83'></path>  <path d='M6 6.5a.495.495 0 0 1 .5-.5'></path>  <path d='m9 12-2 2'></path>", attributeSet0);
 /// <summary>
 /// Gets the PanelBottomClose SvgIcon from the Lucide library.
 /// </summary>
@@ -4236,7 +4272,7 @@ public static SvgIcon PanelsTopLeft => SvgIcon.FromContent("<rect width='18' hei
 /// <summary>
 /// Gets the Paperclip SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Paperclip => SvgIcon.FromContent("<path d='M13.234 20.252 21 12.3'></path>  <path d='m16 6-8.414 8.586a2 2 0 0 0 0 2.828 2 2 0 0 0 2.828 0l8.414-8.586a4 4 0 0 0 0-5.656 4 4 0 0 0-5.656 0l-8.415 8.585a6 6 0 1 0 8.486 8.486'></path>", attributeSet0);
+public static SvgIcon Paperclip => SvgIcon.FromContent("<path d='m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551'></path>", attributeSet0);
 /// <summary>
 /// Gets the Parentheses SvgIcon from the Lucide library.
 /// </summary>
@@ -4312,31 +4348,31 @@ public static SvgIcon PhilippinePeso => SvgIcon.FromContent("<path d='M20 11H4'>
 /// <summary>
 /// Gets the PhoneCall SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon PhoneCall => SvgIcon.FromContent("<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'></path>  <path d='M14.05 2a9 9 0 0 1 8 7.94'></path>  <path d='M14.05 6A5 5 0 0 1 18 10'></path>", attributeSet0);
+public static SvgIcon PhoneCall => SvgIcon.FromContent("<path d='M13 2a9 9 0 0 1 9 9'></path>  <path d='M13 6a5 5 0 0 1 5 5'></path>  <path d='M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'></path>", attributeSet0);
 /// <summary>
 /// Gets the PhoneForwarded SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon PhoneForwarded => SvgIcon.FromContent("<polyline points='18 2 22 6 18 10'></polyline>  <line x1='14' x2='22' y1='6' y2='6'></line>  <path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'></path>", attributeSet0);
+public static SvgIcon PhoneForwarded => SvgIcon.FromContent("<path d='M14 6h8'></path>  <path d='m18 2 4 4-4 4'></path>  <path d='M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'></path>", attributeSet0);
 /// <summary>
 /// Gets the PhoneIncoming SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon PhoneIncoming => SvgIcon.FromContent("<polyline points='16 2 16 8 22 8'></polyline>  <line x1='22' x2='16' y1='2' y2='8'></line>  <path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'></path>", attributeSet0);
+public static SvgIcon PhoneIncoming => SvgIcon.FromContent("<path d='M16 2v6h6'></path>  <path d='m22 2-6 6'></path>  <path d='M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'></path>", attributeSet0);
 /// <summary>
 /// Gets the PhoneMissed SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon PhoneMissed => SvgIcon.FromContent("<line x1='22' x2='16' y1='2' y2='8'></line>  <line x1='16' x2='22' y1='2' y2='8'></line>  <path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'></path>", attributeSet0);
+public static SvgIcon PhoneMissed => SvgIcon.FromContent("<path d='m16 2 6 6'></path>  <path d='m22 2-6 6'></path>  <path d='M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'></path>", attributeSet0);
 /// <summary>
 /// Gets the PhoneOff SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon PhoneOff => SvgIcon.FromContent("<path d='M10.68 13.31a16 16 0 0 0 3.41 2.6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 2 2 0 0 1 1.72 2v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.42 19.42 0 0 1-3.33-2.67m-2.67-3.34a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91'></path>  <line x1='22' x2='2' y1='2' y2='22'></line>", attributeSet0);
+public static SvgIcon PhoneOff => SvgIcon.FromContent("<path d='M10.1 13.9a14 14 0 0 0 3.732 2.668 1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2 18 18 0 0 1-12.728-5.272'></path>  <path d='M22 2 2 22'></path>  <path d='M4.76 13.582A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 .244.473'></path>", attributeSet0);
 /// <summary>
 /// Gets the PhoneOutgoing SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon PhoneOutgoing => SvgIcon.FromContent("<polyline points='22 8 22 2 16 2'></polyline>  <line x1='16' x2='22' y1='8' y2='2'></line>  <path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'></path>", attributeSet0);
+public static SvgIcon PhoneOutgoing => SvgIcon.FromContent("<path d='m16 8 6-6'></path>  <path d='M22 8V2h-6'></path>  <path d='M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'></path>", attributeSet0);
 /// <summary>
 /// Gets the Phone SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Phone => SvgIcon.FromContent("<path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'></path>", attributeSet0);
+public static SvgIcon Phone => SvgIcon.FromContent("<path d='M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'></path>", attributeSet0);
 /// <summary>
 /// Gets the Pi SvgIcon from the Lucide library.
 /// </summary>
@@ -4672,11 +4708,11 @@ public static SvgIcon Replace => SvgIcon.FromContent("<path d='M14 4a2 2 0 0 1 2
 /// <summary>
 /// Gets the ReplyAll SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon ReplyAll => SvgIcon.FromContent("<polyline points='7 17 2 12 7 7'></polyline>  <polyline points='12 17 7 12 12 7'></polyline>  <path d='M22 18v-2a4 4 0 0 0-4-4H7'></path>", attributeSet0);
+public static SvgIcon ReplyAll => SvgIcon.FromContent("<path d='m12 17-5-5 5-5'></path>  <path d='M22 18v-2a4 4 0 0 0-4-4H7'></path>  <path d='m7 17-5-5 5-5'></path>", attributeSet0);
 /// <summary>
 /// Gets the Reply SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Reply => SvgIcon.FromContent("<polyline points='9 17 4 12 9 7'></polyline>  <path d='M20 18v-2a4 4 0 0 0-4-4H4'></path>", attributeSet0);
+public static SvgIcon Reply => SvgIcon.FromContent("<path d='M20 18v-2a4 4 0 0 0-4-4H4'></path>  <path d='m9 17-5-5 5-5'></path>", attributeSet0);
 /// <summary>
 /// Gets the Rewind SvgIcon from the Lucide library.
 /// </summary>
@@ -4780,7 +4816,7 @@ public static SvgIcon SatelliteDish => SvgIcon.FromContent("<path d='M4 10a7.31 
 /// <summary>
 /// Gets the Satellite SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Satellite => SvgIcon.FromContent("<path d='M13 7 9 3 5 7l4 4'></path>  <path d='m17 11 4 4-4 4-4-4'></path>  <path d='m8 12 4 4 6-6-4-4Z'></path>  <path d='m16 8 3-3'></path>  <path d='M9 21a6 6 0 0 0-6-6'></path>", attributeSet0);
+public static SvgIcon Satellite => SvgIcon.FromContent("<path d='m13.5 6.5-3.148-3.148a1.205 1.205 0 0 0-1.704 0L6.352 5.648a1.205 1.205 0 0 0 0 1.704L9.5 10.5'></path>  <path d='M16.5 7.5 19 5'></path>  <path d='m17.5 10.5 3.148 3.148a1.205 1.205 0 0 1 0 1.704l-2.296 2.296a1.205 1.205 0 0 1-1.704 0L13.5 14.5'></path>  <path d='M9 21a6 6 0 0 0-6-6'></path>  <path d='M9.352 10.648a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l4.296-4.296a1.205 1.205 0 0 0 0-1.704l-2.296-2.296a1.205 1.205 0 0 0-1.704 0z'></path>", attributeSet0);
 /// <summary>
 /// Gets the SaudiRiyal SvgIcon from the Lucide library.
 /// </summary>
@@ -4892,7 +4928,7 @@ public static SvgIcon SearchX => SvgIcon.FromContent("<path d='m13.5 8.5-5 5'></
 /// <summary>
 /// Gets the Search SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Search => SvgIcon.FromContent("<circle cx='11' cy='11' r='8'></circle>  <path d='m21 21-4.3-4.3'></path>", attributeSet0);
+public static SvgIcon Search => SvgIcon.FromContent("<path d='m21 21-4.34-4.34'></path>  <circle cx='11' cy='11' r='8'></circle>", attributeSet0);
 /// <summary>
 /// Gets the Section SvgIcon from the Lucide library.
 /// </summary>
@@ -4912,11 +4948,11 @@ public static SvgIcon Send => SvgIcon.FromContent("<path d='M14.536 21.686a.5.5 
 /// <summary>
 /// Gets the SeparatorHorizontal SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon SeparatorHorizontal => SvgIcon.FromContent("<line x1='3' x2='21' y1='12' y2='12'></line>  <polyline points='8 8 12 4 16 8'></polyline>  <polyline points='16 16 12 20 8 16'></polyline>", attributeSet0);
+public static SvgIcon SeparatorHorizontal => SvgIcon.FromContent("<path d='m16 16-4 4-4-4'></path>  <path d='M3 12h18'></path>  <path d='m8 8 4-4 4 4'></path>", attributeSet0);
 /// <summary>
 /// Gets the SeparatorVertical SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon SeparatorVertical => SvgIcon.FromContent("<line x1='12' x2='12' y1='3' y2='21'></line>  <polyline points='8 8 4 12 8 16'></polyline>  <polyline points='16 16 20 12 16 8'></polyline>", attributeSet0);
+public static SvgIcon SeparatorVertical => SvgIcon.FromContent("<path d='M12 3v18'></path>  <path d='m16 16 4-4-4-4'></path>  <path d='m8 8-4 4 4 4'></path>", attributeSet0);
 /// <summary>
 /// Gets the ServerCog SvgIcon from the Lucide library.
 /// </summary>
@@ -4952,7 +4988,7 @@ public static SvgIcon Share2 => SvgIcon.FromContent("<circle cx='18' cy='5' r='3
 /// <summary>
 /// Gets the Share SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Share => SvgIcon.FromContent("<path d='M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8'></path>  <polyline points='16 6 12 2 8 6'></polyline>  <line x1='12' x2='12' y1='2' y2='15'></line>", attributeSet0);
+public static SvgIcon Share => SvgIcon.FromContent("<path d='M12 2v13'></path>  <path d='m16 6-4-4-4 4'></path>  <path d='M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8'></path>", attributeSet0);
 /// <summary>
 /// Gets the Sheet SvgIcon from the Lucide library.
 /// </summary>
@@ -5162,6 +5198,10 @@ public static SvgIcon Snail => SvgIcon.FromContent("<path d='M2 13a6 6 0 1 0 12 
 /// </summary>
 public static SvgIcon Snowflake => SvgIcon.FromContent("<path d='m10 20-1.25-2.5L6 18'></path>  <path d='M10 4 8.75 6.5 6 6'></path>  <path d='m14 20 1.25-2.5L18 18'></path>  <path d='m14 4 1.25 2.5L18 6'></path>  <path d='m17 21-3-6h-4'></path>  <path d='m17 3-3 6 1.5 3'></path>  <path d='M2 12h6.5L10 9'></path>  <path d='m20 10-1.5 2 1.5 2'></path>  <path d='M22 12h-6.5L14 15'></path>  <path d='m4 10 1.5 2L4 14'></path>  <path d='m7 21 3-6-1.5-3'></path>  <path d='m7 3 3 6h4'></path>", attributeSet0);
 /// <summary>
+/// Gets the SoapDispenserDroplet SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon SoapDispenserDroplet => SvgIcon.FromContent("<path d='M10.5 2v4'></path>  <path d='M14 2H7a2 2 0 0 0-2 2'></path>  <path d='M19.29 14.76A6.67 6.67 0 0 1 17 11a6.6 6.6 0 0 1-2.29 3.76c-1.15.92-1.71 2.04-1.71 3.19 0 2.22 1.8 4.05 4 4.05s4-1.83 4-4.05c0-1.16-.57-2.26-1.71-3.19'></path>  <path d='M9.607 21H6a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h7V7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3'></path>", attributeSet0);
+/// <summary>
 /// Gets the Sofa SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon Sofa => SvgIcon.FromContent("<path d='M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3'></path>  <path d='M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z'></path>  <path d='M4 18v2'></path>  <path d='M20 18v2'></path>  <path d='M12 4v9'></path>", attributeSet0);
@@ -5288,7 +5328,7 @@ public static SvgIcon SquareChartGantt => SvgIcon.FromContent("<rect width='18' 
 /// <summary>
 /// Gets the SquareCheckBig SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon SquareCheckBig => SvgIcon.FromContent("<path d='M21 10.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.5'></path>  <path d='m9 11 3 3L22 4'></path>", attributeSet0);
+public static SvgIcon SquareCheckBig => SvgIcon.FromContent("<path d='M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344'></path>  <path d='m9 11 3 3L22 4'></path>", attributeSet0);
 /// <summary>
 /// Gets the SquareCheck SvgIcon from the Lucide library.
 /// </summary>
@@ -5312,7 +5352,7 @@ public static SvgIcon SquareChevronUp => SvgIcon.FromContent("<rect width='18' h
 /// <summary>
 /// Gets the SquareCode SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon SquareCode => SvgIcon.FromContent("<path d='M10 9.5 8 12l2 2.5'></path>  <path d='m14 9.5 2 2.5-2 2.5'></path>  <rect width='18' height='18' x='3' y='3' rx='2'></rect>", attributeSet0);
+public static SvgIcon SquareCode => SvgIcon.FromContent("<path d='m10 9-3 3 3 3'></path>  <path d='m14 15 3-3-3-3'></path>  <rect x='3' y='3' width='18' height='18' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the SquareDashedBottomCode SvgIcon from the Lucide library.
 /// </summary>
@@ -5329,6 +5369,10 @@ public static SvgIcon SquareDashedKanban => SvgIcon.FromContent("<path d='M8 7v7
 /// Gets the SquareDashedMousePointer SvgIcon from the Lucide library.
 /// </summary>
 public static SvgIcon SquareDashedMousePointer => SvgIcon.FromContent("<path d='M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z'></path>  <path d='M5 3a2 2 0 0 0-2 2'></path>  <path d='M19 3a2 2 0 0 1 2 2'></path>  <path d='M5 21a2 2 0 0 1-2-2'></path>  <path d='M9 3h1'></path>  <path d='M9 21h2'></path>  <path d='M14 3h1'></path>  <path d='M3 9v1'></path>  <path d='M21 9v2'></path>  <path d='M3 14v1'></path>", attributeSet0);
+/// <summary>
+/// Gets the SquareDashedTopSolid SvgIcon from the Lucide library.
+/// </summary>
+public static SvgIcon SquareDashedTopSolid => SvgIcon.FromContent("<path d='M14 21h1'></path>  <path d='M21 14v1'></path>  <path d='M21 19a2 2 0 0 1-2 2'></path>  <path d='M21 9v1'></path>  <path d='M3 14v1'></path>  <path d='M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2'></path>  <path d='M3 9v1'></path>  <path d='M5 21a2 2 0 0 1-2-2'></path>  <path d='M9 21h1'></path>", attributeSet0);
 /// <summary>
 /// Gets the SquareDashed SvgIcon from the Lucide library.
 /// </summary>
@@ -5696,7 +5740,7 @@ public static SvgIcon Tent => SvgIcon.FromContent("<path d='M3.5 21 14 3'></path
 /// <summary>
 /// Gets the Terminal SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Terminal => SvgIcon.FromContent("<polyline points='4 17 10 11 4 5'></polyline>  <line x1='12' x2='20' y1='19' y2='19'></line>", attributeSet0);
+public static SvgIcon Terminal => SvgIcon.FromContent("<path d='M12 19h8'></path>  <path d='m4 17 6-6-6-6'></path>", attributeSet0);
 /// <summary>
 /// Gets the TestTubeDiagonal SvgIcon from the Lucide library.
 /// </summary>
@@ -5828,7 +5872,7 @@ public static SvgIcon Torus => SvgIcon.FromContent("<ellipse cx='12' cy='11' rx=
 /// <summary>
 /// Gets the TouchpadOff SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon TouchpadOff => SvgIcon.FromContent("<path d='M4 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16'></path>  <path d='M2 14h12'></path>  <path d='M22 14h-2'></path>  <path d='M12 20v-6'></path>  <path d='m2 2 20 20'></path>  <path d='M22 16V6a2 2 0 0 0-2-2H10'></path>", attributeSet0);
+public static SvgIcon TouchpadOff => SvgIcon.FromContent("<path d='M12 20v-6'></path>  <path d='M19.656 14H22'></path>  <path d='M2 14h12'></path>  <path d='m2 2 20 20'></path>  <path d='M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2'></path>  <path d='M9.656 4H20a2 2 0 0 1 2 2v10.344'></path>", attributeSet0);
 /// <summary>
 /// Gets the Touchpad SvgIcon from the Lucide library.
 /// </summary>
@@ -5900,7 +5944,7 @@ public static SvgIcon Trello => SvgIcon.FromContent("<rect width='18' height='18
 /// <summary>
 /// Gets the TrendingDown SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon TrendingDown => SvgIcon.FromContent("<polyline points='22 17 13.5 8.5 8.5 13.5 2 7'></polyline>  <polyline points='16 17 22 17 22 11'></polyline>", attributeSet0);
+public static SvgIcon TrendingDown => SvgIcon.FromContent("<path d='M16 17h6v-6'></path>  <path d='m22 17-8.5-8.5-5 5L2 7'></path>", attributeSet0);
 /// <summary>
 /// Gets the TrendingUpDown SvgIcon from the Lucide library.
 /// </summary>
@@ -5908,7 +5952,7 @@ public static SvgIcon TrendingUpDown => SvgIcon.FromContent("<path d='M14.828 14
 /// <summary>
 /// Gets the TrendingUp SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon TrendingUp => SvgIcon.FromContent("<polyline points='22 7 13.5 15.5 8.5 10.5 2 17'></polyline>  <polyline points='16 7 22 7 22 13'></polyline>", attributeSet0);
+public static SvgIcon TrendingUp => SvgIcon.FromContent("<path d='M16 7h6v6'></path>  <path d='m22 7-8.5 8.5-5-5L2 17'></path>", attributeSet0);
 /// <summary>
 /// Gets the TriangleAlert SvgIcon from the Lucide library.
 /// </summary>
@@ -5952,7 +5996,7 @@ public static SvgIcon TvMinimal => SvgIcon.FromContent("<path d='M7 21h10'></pat
 /// <summary>
 /// Gets the Tv SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Tv => SvgIcon.FromContent("<rect width='20' height='15' x='2' y='7' rx='2' ry='2'></rect>  <polyline points='17 2 12 7 7 2'></polyline>", attributeSet0);
+public static SvgIcon Tv => SvgIcon.FromContent("<path d='m17 2-5 5-5-5'></path>  <rect width='20' height='15' x='2' y='7' rx='2'></rect>", attributeSet0);
 /// <summary>
 /// Gets the Twitch SvgIcon from the Lucide library.
 /// </summary>
@@ -5968,7 +6012,7 @@ public static SvgIcon TypeOutline => SvgIcon.FromContent("<path d='M14 16.5a.5.5
 /// <summary>
 /// Gets the Type SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Type => SvgIcon.FromContent("<polyline points='4 7 4 4 20 4 20 7'></polyline>  <line x1='9' x2='15' y1='20' y2='20'></line>  <line x1='12' x2='12' y1='4' y2='20'></line>", attributeSet0);
+public static SvgIcon Type => SvgIcon.FromContent("<path d='M12 4v16'></path>  <path d='M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2'></path>  <path d='M9 20h6'></path>", attributeSet0);
 /// <summary>
 /// Gets the UmbrellaOff SvgIcon from the Lucide library.
 /// </summary>
@@ -6008,7 +6052,7 @@ public static SvgIcon Ungroup => SvgIcon.FromContent("<rect width='8' height='6'
 /// <summary>
 /// Gets the University SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon University => SvgIcon.FromContent("<circle cx='12' cy='10' r='1'></circle>  <path d='M22 20V8h-4l-6-4-6 4H2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2'></path>  <path d='M6 17v.01'></path>  <path d='M6 13v.01'></path>  <path d='M18 17v.01'></path>  <path d='M18 13v.01'></path>  <path d='M14 22v-5a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5'></path>", attributeSet0);
+public static SvgIcon University => SvgIcon.FromContent("<path d='M14 21v-3a2 2 0 0 0-4 0v3'></path>  <path d='M18 12h.01'></path>  <path d='M18 16h.01'></path>  <path d='M22 7a1 1 0 0 0-1-1h-2a2 2 0 0 1-1.143-.359L13.143 2.36a2 2 0 0 0-2.286-.001L6.143 5.64A2 2 0 0 1 5 6H3a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2z'></path>  <path d='M6 12h.01'></path>  <path d='M6 16h.01'></path>  <circle cx='12' cy='10' r='2'></circle>", attributeSet0);
 /// <summary>
 /// Gets the Unlink2 SvgIcon from the Lucide library.
 /// </summary>
@@ -6024,7 +6068,7 @@ public static SvgIcon Unplug => SvgIcon.FromContent("<path d='m19 5 3-3'></path>
 /// <summary>
 /// Gets the Upload SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Upload => SvgIcon.FromContent("<path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path>  <polyline points='17 8 12 3 7 8'></polyline>  <line x1='12' x2='12' y1='3' y2='15'></line>", attributeSet0);
+public static SvgIcon Upload => SvgIcon.FromContent("<path d='M12 3v12'></path>  <path d='m17 8-5-5-5 5'></path>  <path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path>", attributeSet0);
 /// <summary>
 /// Gets the Usb SvgIcon from the Lucide library.
 /// </summary>
@@ -6032,7 +6076,7 @@ public static SvgIcon Usb => SvgIcon.FromContent("<circle cx='10' cy='7' r='1'><
 /// <summary>
 /// Gets the UserCheck SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon UserCheck => SvgIcon.FromContent("<path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path>  <circle cx='9' cy='7' r='4'></circle>  <polyline points='16 11 18 13 22 9'></polyline>", attributeSet0);
+public static SvgIcon UserCheck => SvgIcon.FromContent("<path d='m16 11 2 2 4-4'></path>  <path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path>  <circle cx='9' cy='7' r='4'></circle>", attributeSet0);
 /// <summary>
 /// Gets the UserCog SvgIcon from the Lucide library.
 /// </summary>
@@ -6104,7 +6148,7 @@ public static SvgIcon UsersRound => SvgIcon.FromContent("<path d='M18 21a8 8 0 0
 /// <summary>
 /// Gets the Users SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Users => SvgIcon.FromContent("<path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path>  <circle cx='9' cy='7' r='4'></circle>  <path d='M22 21v-2a4 4 0 0 0-3-3.87'></path>  <path d='M16 3.13a4 4 0 0 1 0 7.75'></path>", attributeSet0);
+public static SvgIcon Users => SvgIcon.FromContent("<path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path>  <path d='M16 3.128a4 4 0 0 1 0 7.744'></path>  <path d='M22 21v-2a4 4 0 0 0-3-3.87'></path>  <circle cx='9' cy='7' r='4'></circle>", attributeSet0);
 /// <summary>
 /// Gets the UtensilsCrossed SvgIcon from the Lucide library.
 /// </summary>
@@ -6224,7 +6268,7 @@ public static SvgIcon Wand => SvgIcon.FromContent("<path d='M15 4V2'></path>  <p
 /// <summary>
 /// Gets the Warehouse SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon Warehouse => SvgIcon.FromContent("<path d='M22 8.35V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.35A2 2 0 0 1 3.26 6.5l8-3.2a2 2 0 0 1 1.48 0l8 3.2A2 2 0 0 1 22 8.35Z'></path>  <path d='M6 18h12'></path>  <path d='M6 14h12'></path>  <rect width='12' height='12' x='6' y='10'></rect>", attributeSet0);
+public static SvgIcon Warehouse => SvgIcon.FromContent("<path d='M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11'></path>  <path d='M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z'></path>  <path d='M6 13h12'></path>  <path d='M6 17h12'></path>", attributeSet0);
 /// <summary>
 /// Gets the WashingMachine SvgIcon from the Lucide library.
 /// </summary>
@@ -6324,7 +6368,7 @@ public static SvgIcon Worm => SvgIcon.FromContent("<path d='m19 12-1.5 3'></path
 /// <summary>
 /// Gets the WrapText SvgIcon from the Lucide library.
 /// </summary>
-public static SvgIcon WrapText => SvgIcon.FromContent("<line x1='3' x2='21' y1='6' y2='6'></line>  <path d='M3 12h15a3 3 0 1 1 0 6h-4'></path>  <polyline points='16 16 14 18 16 20'></polyline>  <line x1='3' x2='10' y1='18' y2='18'></line>", attributeSet0);
+public static SvgIcon WrapText => SvgIcon.FromContent("<path d='m16 16-2 2 2 2'></path>  <path d='M3 12h15a3 3 0 1 1 0 6h-4'></path>  <path d='M3 18h7'></path>  <path d='M3 6h18'></path>", attributeSet0);
 /// <summary>
 /// Gets the Wrench SvgIcon from the Lucide library.
 /// </summary>
