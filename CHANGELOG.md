@@ -1,6 +1,10 @@
 # Changelog
 These are the list of changes to each version that has been released.
 
+## 1.10
+- [x] Updated Blazicons to v2.2.39
+- [x] Updated Lucide Icons to v0.525.0
+
 ## 1.9
 - [x] Updated Lucide Icons to v0.519.0
 
