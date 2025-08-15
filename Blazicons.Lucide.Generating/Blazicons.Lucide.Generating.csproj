@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
-    <Version>1.11</Version>
+    <Version>1.12</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Blazicons.Generating" Version="2.1.45" PrivateAssets="all" GeneratePathProperty="true" />
