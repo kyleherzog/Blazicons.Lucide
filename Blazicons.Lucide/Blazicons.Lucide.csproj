@@ -25,29 +25,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Exclude the output of source generators from the compilation -->
-    <Compile Remove="$(CompilerGeneratedFilesOutputPath)/**/*.cs" />
-  </ItemGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
     <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Blazicons" Version="2.2.39" />
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="9.0.0">
+    <PackageReference Include="Blazicons" Version="3.0.12" />
+    <PackageReference Include="Blazicons.Generating" Version="3.2.28">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.103">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.14.15">
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.103">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -55,7 +48,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.15.0.120848">
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.19.0.132793">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -64,9 +57,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Blazicons.Lucide.Generating\Blazicons.Lucide.Generating.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
-  </ItemGroup>
+
   <ItemGroup>
     <None Include="blazicons-md-128.png">
       <Pack>True</Pack>
@@ -76,4 +67,13 @@
   <ItemGroup>
     <Folder Include="Generated\" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <BlaziconsRepoUrl>https://github.com/lucide-icons/lucide/archive/refs/heads/main.zip</BlaziconsRepoUrl>
+    <BlaziconsSvgPattern>^icons/.*\.svg$</BlaziconsSvgPattern>
+    <BlaziconsClassName>Lucide</BlaziconsClassName>
+    <BlaziconsSvgFolderPath>icons</BlaziconsSvgFolderPath>
+    <BlaziconsGeneratedCodeOutputPath>..\Blazicons.Lucide\Generated</BlaziconsGeneratedCodeOutputPath>
+    <BlaziconsGeneratorPath>Blazicons.Lucide.Generating/Blazicons.Lucide.Generating.LucideGenerator</BlaziconsGeneratorPath>
+  </PropertyGroup>
 </Project>
