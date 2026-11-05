@@ -1,6 +1,9 @@
 # Changelog
 These are the list of changes to each version that has been released.
 
+## 3.2
+- [x] Updated Lucide Icons to v1.69.0
+
 ## 3.1
 - [x] Updated Lucide Icons to v1.61.0
 
